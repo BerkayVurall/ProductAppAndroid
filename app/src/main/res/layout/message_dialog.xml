@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_gravity="bottom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <ImageView
+        android:id="@+id/message_Dialog_Img"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:id="@+id/message_Dialog_Header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:paddingStart="20sp"
+        android:paddingEnd="20sp"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/message_Dialog_Body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="#282828"
+        android:paddingStart="20sp"
+        android:layout_marginBottom="20dp"
+        android:paddingEnd="20sp"
+        android:textSize="14sp"/>
+    <Button
+        android:id="@+id/message_Dialog_Button_Tamam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tamam"
+        android:textAllCaps="false"
+        android:height="52dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
+        />
+</LinearLayout>
